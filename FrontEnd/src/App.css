@@ -1,0 +1,292 @@
+main {
+  text-align: center;
+  vertical-align: center;
+}
+
+div {
+  margin: 10px;
+}
+
+button#redButton {
+  background-color: red;
+}
+
+ul {
+  text-align: left;
+}
+
+div.listHolder {
+  background-color: peachpuff;
+  padding: 3px;
+}
+
+
+
+
+
+body{
+  background-color: #F5F0E7;
+}
+.blueTitles{
+color: #37A5E4;
+}
+
+.description{
+  color:#333;
+  font-size: 20px;
+}
+.main{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  width:400px;
+}
+
+
+.Btn{
+  margin-top:10px;
+  border:0px;
+  border-radius:70px;
+  width:150px;
+  height: 50px;
+  font-weight:bold;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  color:white;
+}
+
+#orange{
+  background-color: #EDA04B;
+}
+
+#green{
+    background-color: #51B667;
+}
+
+.roundImage{
+  width:200px;
+}
+
+.UniInput{
+  border:0px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  width:100%;
+  height: 25px;
+
+}
+
+/* shop */
+.search-bar-dropdown{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+
+
+.uniDropdown{
+  border:0px solid; 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+
+  width:100%;
+  margin:0px;
+  height: 40px;
+  background-color: rgb(195, 220, 253);
+
+}
+
+
+/*  price    */
+
+.priceTagContainer{
+    background: url("./src/pages/pricetag.png") no-repeat;
+    background-size: 100%;
+    width:400px;
+}
+
+.prices{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  margin-left:0px;
+  text-align: center;
+  margin-top:-10px;
+
+}
+
+
+.schoolName{
+  margin-top:0px;
+  font-weight: lighter;
+  margin-bottom:0px;
+  width:350px;
+}
+
+#loc{
+  margin-top:0px;
+}
+
+.priceHeading{
+  width:250px;
+}
+
+.fees{
+  font-weight: normal;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.totalContainer{
+  border-top:dashed;
+  width:100%;
+}
+
+#totalHaeading{
+  margin-top:20px;
+}
+
+.totalPrice{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+
+
+
+
+/*income */
+
+.incomeSelect{
+  border:0px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  width:100%;
+  height: 40px;
+   color: gray; 
+
+}
+
+.opts{
+  color: black;
+}
+
+
+/* total  */
+
+.recieptContainer{
+  background: url("./src/pages/receipt.png") no-repeat;
+  background-size: 100%;
+  width:450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contentTotal{
+  width:380px;
+}
+
+.reciept{
+       /* The image used */
+  width:100%;
+  height:100%;
+}
+
+.Uniheading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.uniInfo{
+  margin:0px;
+  font-weight:normal; 
+
+}
+
+#uniName{
+   font-weight:bold; 
+}
+
+
+
+.DescriptionHeading{
+  display:flex;
+  border-top:dashed;
+  border-bottom:dashed;
+  border-width: thin;
+}
+
+.descheading{
+  margin-top:10px;
+  margin-bottom:10px;
+  font-weight: normal;
+}
+#descriptionColumn{
+  margin-left:20px;
+  margin-right:auto;
+}
+
+.row{
+  display:flex;
+}
+
+#tutu{
+  margin-right:auto;
+  margin-left:33px;
+}
+
+.tuitionRow {
+  font-weight: normal;
+  margin-bottom:0px;
+}
+
+#expense{
+  margin-right:auto;
+  margin-left:33px;
+  width:180px;
+}
+
+.subtotal{
+  font-weight:normal;
+}
+
+#sbr{
+  margin-right:auto;
+  margin-left:130px;
+}
+
+.Description{
+  border-bottom: dashed;
+  border-width: thin;
+}
+
+#discount{
+  margin-right:auto;
+}
+
+.totalRow{
+  font-weight: normal;
+  margin-bottom:0px;
+  margin-top:0px;
+}
+
+#total{
+  margin-right:auto;
+}
+
+.disclaimer{
+  margin-left:20px;
+  display:flex;
+}
+
+.disclaimerNote{
+  margin-top:5px;
+}
+
+.note{
+font-size:15px;
+}
