@@ -1,3 +1,5 @@
+live: https://final-project-starter-edmonddavis.ecs162instruct.repl.co/
+
 Shop for a year of college by putting items into your shopping cart and then tally up the bill when you check out. Pick a school, and see if you can get financial aid. This is a very natural React app.
 
 Data on how much it costs to attend different univerisites is available from the College Scorecard, a handy US government API! Among many other things, it gives us, for each school, the average price that a student from a family from different income levels ends up paying. Using calls to this API, we can build an app to let people estimate the real cost, as opposed to the sticker price. For instance, for someone from a middle-class family, Stanford might be a lot cheaper than UC!
